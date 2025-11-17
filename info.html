@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Personal Message</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <audio id="bgm" src="assets/music/soft-piano.mp3" loop></audio>
+
+  <div class="container">
+    <div class="wrap">
+      <div class="card" style="text-align:center">
+        <h2>Happy Birthday My Best Person 💙</h2>
+        <p class="lead">A message straight from my heart.</p>
+
+        <video muted autoplay playsinline controls preload="auto" width="80%" poster="assets/images/message_poster.png" style="border-radius:16px; border:3px solid #ffffff12; margin:auto; display:block;">
+          <source src="assets/videos/final_message.mp4" type="video/mp4">
+        </video>
+
+        
+        <div style="margin-top:18px; display:flex; gap:12px; justify-content:center;">
+          <a class="button secondary" href="index.html">← Back to Home</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button id="audioToggle" class="button">▶ Play music</button>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
